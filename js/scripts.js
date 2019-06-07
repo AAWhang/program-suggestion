@@ -8,6 +8,7 @@
 $(document).ready(function(){
 
 $("input").click(function(){
+  // the value is set to 0 in order to reset the process after every click, else the variable will accumilate after every click.
   var ruby = 0;
   var csharp = 0;
   var java = 0;
@@ -16,6 +17,8 @@ $("input").click(function(){
   var rust = 0;
   var swift = 0;
 
+
+// This section is designed to read every checked value and add 1 into the programming language name variable
   if ($("input:checkbox[name=question1]:checked").val() === "1"){
     csharp += 1;
     python += 1;
@@ -55,6 +58,7 @@ $("input").click(function(){
     swift += 1;
   }
 
+//this function is designed to take in the language name as a string in order to remove class using a dynamic name.
   function removehighlight(language){
     $("div#" + language).removeClass("highlightrow");
     $("div#" + language).removeClass("highlightrow1");
@@ -76,6 +80,8 @@ $("input").click(function(){
       $("div#" + lengaugestring).addClass("highlightrow2");
     };
   }
+
+  //I call the function inputting the variable and string, which will compare the correct variable and input the correct string into the dynamic name
   highlightcheck(ruby, "ruby");
   highlightcheck(csharp, "csharp");
   highlightcheck(java, "java");
@@ -84,9 +90,15 @@ $("input").click(function(){
   highlightcheck(rust, "rust");
   highlightcheck(swift, "swift");
 
+})
 
-/*  Code works but can be simplified into a function
 
+
+
+
+/*  Code works but can be simplified into the function above.
+//if the value is 0, it will clear the highlights, if 1 it will turn yellow, 2 will turn blue, 3 will turn green
+//clearing the row before the highlight will avoid any highlight conflicts.
 if (ruby === 0) {
   removehighlight("ruby");
 } else if (ruby === 1){
@@ -178,10 +190,6 @@ if (swift === 0) {
   $("div#swift").addClass("highlightrow2");
 };
 */
-
-
-})
-
 
 
 
