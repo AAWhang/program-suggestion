@@ -13,6 +13,7 @@ _This web page is created for the second Friday project assigned to the students
 * _clone repository off of Github_
 * _run index.html in the google chrome browser_
 
+Alternatively the webpage can be viewed at https://aawhang.github.io/program-suggestion/
 
 
 ## Known Bugs
