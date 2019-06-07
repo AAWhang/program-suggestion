@@ -1,5 +1,5 @@
 body {
-  background-color:orange;
+  background-color:#ffd3b6;
 }
 h1 {
   text-align: center;
@@ -10,21 +10,21 @@ p {
 
 .container {
   margin-top: 3%;
-  background-color:white;
+  background-color:#f0f8ff;
 }
 
 .highlightrow {
-  background-color: yellow;
+  background-color: #fef65b;
 }
 
 .highlightrow1 {
-  color: white;
-  background-color: blue;
+  color: blue;
+  background-color: #c3edeb;
 }
 
 .highlightrow2 {
-  color: white;
-  background-color: green;
+  color: blue;
+  background-color: #6ddb9b;
 }
 
 .row {
