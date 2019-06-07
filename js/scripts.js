@@ -16,33 +16,33 @@ $("input").click(function(){
   var rust = 0;
   var swift = 0;
 
-  if ($("input:checkbox[name=vehicle1]:checked").val() === "1"){
+  if ($("input:checkbox[name=question1]:checked").val() === "1"){
     ruby += 1;
     python += 1;
   }
 
-  if ($("input:checkbox[name=vehicle2]:checked").val() === "1"){
+  if ($("input:checkbox[name=question2]:checked").val() === "1"){
     csharp += 1;
     go += 1;
   }
 
-  if ($("input:checkbox[name=vehicle3]:checked").val() === "1"){
+  if ($("input:checkbox[name=question3]:checked").val() === "1"){
     go += 1;
     rust += 1;
     swift += 1;
   }
 
-  if ($("input:checkbox[name=vehicle4]:checked").val() === "1"){
+  if ($("input:checkbox[name=question4]:checked").val() === "1"){
     java += 1;
     python += 1;
   }
 
-  if ($("input:checkbox[name=vehicle5]:checked").val() === "1"){
+  if ($("input:checkbox[name=question5]:checked").val() === "1"){
     ruby += 1;
     rust += 1;
   }
 
-  if ($("input:checkbox[name=vehicle6]:checked").val() === "1"){
+  if ($("input:checkbox[name=question6]:checked").val() === "1"){
     csharp += 1;
     swift += 1;
   }

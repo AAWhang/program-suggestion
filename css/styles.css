@@ -2,3 +2,12 @@
   color: white;
   background-color: blue;
 }
+
+.row {
+  border: solid 1px black;
+}
+
+.col-md-1 {
+  padding: 10px;
+  border-left: solid 1px black;
+}
