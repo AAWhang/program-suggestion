@@ -17,33 +17,41 @@ $("input").click(function(){
   var swift = 0;
 
   if ($("input:checkbox[name=question1]:checked").val() === "1"){
-    ruby += 1;
-    python += 1;
-  }
-
-  if ($("input:checkbox[name=question2]:checked").val() === "1"){
     csharp += 1;
-    go += 1;
-  }
-
-  if ($("input:checkbox[name=question3]:checked").val() === "1"){
-    go += 1;
+    python += 1;
     rust += 1;
     swift += 1;
   }
 
-  if ($("input:checkbox[name=question4]:checked").val() === "1"){
+  if ($("input:checkbox[name=question2]:checked").val() === "1"){
+    python += 1;
+    ruby += 1;
     java += 1;
+  }
+
+  if ($("input:checkbox[name=question3]:checked").val() === "1"){
+    go += 1;
+    swift += 1;
+    csharp += 1;
+  }
+
+  if ($("input:checkbox[name=question4]:checked").val() === "1"){
+    ruby += 1;
     python += 1;
   }
 
   if ($("input:checkbox[name=question5]:checked").val() === "1"){
-    ruby += 1;
-    rust += 1;
+    csharp += 1;
+    java += 1;
   }
 
   if ($("input:checkbox[name=question6]:checked").val() === "1"){
+    ruby += 1;
     csharp += 1;
+    java += 1;
+    go += 1;
+    python += 1;
+    rust += 1;
     swift += 1;
   }
 
