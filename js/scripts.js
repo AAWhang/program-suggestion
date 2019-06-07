@@ -7,15 +7,15 @@
 
 $(document).ready(function(){
 
-$("input").click(function(){
-  // the value is set to 0 in order to reset the process after every click, else the variable will accumilate after every click.
-  var ruby = 0;
-  var csharp = 0;
-  var java = 0;
-  var go = 0;
-  var python = 0;
-  var rust = 0;
-  var swift = 0;
+  $("input").click(function(){
+    // the value is set to 0 in order to reset the process after every click, else the variable will accumilate after every click.
+    var ruby = 0;
+    var csharp = 0;
+    var java = 0;
+    var go = 0;
+    var python = 0;
+    var rust = 0;
+    var swift = 0;
 
 
 // This section is designed to read every checked value and add 1 into the programming language name variable

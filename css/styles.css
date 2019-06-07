@@ -39,3 +39,59 @@ p {
   padding: 10px;
   border-left: solid 1px black;
 }
+
+.blinking1{
+    animation:blinkingText1 0.8s infinite;
+}
+@keyframes blinkingText1{
+  0%{     color: red;    }
+  20%{    color: orange; }
+  40%{    color: yellow; }
+  60%{    color: green;  }
+  80%{   color: blue;    }
+  100%{   color: red;    }
+}
+.blinking2{
+    animation:blinkingText2 0.8s infinite;
+}
+@keyframes blinkingText2{
+  0%{     color: orange;    }
+  20%{    color: yellow; }
+  40%{    color: green; }
+  60%{    color: blue;  }
+  80%{   color: red;    }
+  100%{   color: orange;    }
+}
+.blinking3{
+    animation:blinkingText3 0.8s infinite;
+}
+@keyframes blinkingText3{
+  0%{     color: yellow;    }
+  20%{    color: green; }
+  40%{    color: blue; }
+  60%{    color: red;  }
+  80%{   color: orange;    }
+  100%{   color: yellow;    }
+}
+.blinking4{
+    animation:blinkingText4 0.8s infinite;
+}
+@keyframes blinkingText4{
+  0%{     color: green;    }
+  20%{    color: blue; }
+  40%{    color: red; }
+  60%{    color: orange;  }
+  80%{   color: yellow;    }
+  100%{   color: green;    }
+}
+.blinking5{
+    animation:blinkingText5 0.8s infinite;
+}
+@keyframes blinkingText5{
+  0%{     color: blue;    }
+  20%{    color: red; }
+  40%{    color: orange; }
+  60%{    color: yellow;  }
+  80%{   color: green;    }
+  100%{   color: blue;    }
+}
