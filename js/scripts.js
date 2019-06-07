@@ -61,6 +61,32 @@ $("input").click(function(){
     $("div#" + language).removeClass("highlightrow2");
   }
 
+//Made a function to do the same thing as the commented section out below in a generic manner
+  function highlightcheck(language, lengaugestring){
+    if (language === 0) {
+      removehighlight(lengaugestring);
+    } else if (language === 1){
+      removehighlight(lengaugestring);
+      $("div#" + lengaugestring).addClass("highlightrow");
+    } else if (language === 2){
+      removehighlight(lengaugestring);
+      $("div#" + lengaugestring).addClass("highlightrow1");
+    } else {
+      removehighlight(lengaugestring);
+      $("div#" + lengaugestring).addClass("highlightrow2");
+    };
+  }
+  highlightcheck(ruby, "ruby");
+  highlightcheck(csharp, "csharp");
+  highlightcheck(java, "java");
+  highlightcheck(go, "go");
+  highlightcheck(python, "python");
+  highlightcheck(rust, "rust");
+  highlightcheck(swift, "swift");
+
+
+/*  Code works but can be simplified into a function
+
 if (ruby === 0) {
   removehighlight("ruby");
 } else if (ruby === 1){
@@ -151,7 +177,7 @@ if (swift === 0) {
   removehighlight("swift");
   $("div#swift").addClass("highlightrow2");
 };
-
+*/
 
 
 })
