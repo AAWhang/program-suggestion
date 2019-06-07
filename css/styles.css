@@ -8,7 +8,17 @@ body {
 
 .highlightrow {
   color: white;
+  background-color: yellow;
+}
+
+.highlightrow1 {
+  color: white;
   background-color: blue;
+}
+
+.highlightrow2 {
+  color: white;
+  background-color: green;
 }
 
 .row {

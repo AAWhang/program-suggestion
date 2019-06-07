@@ -55,46 +55,101 @@ $("input").click(function(){
     swift += 1;
   }
 
+  function removehighlight(language){
+    $("div#" + language).removeClass("highlightrow");
+    $("div#" + language).removeClass("highlightrow1");
+    $("div#" + language).removeClass("highlightrow2");
+  }
+
 if (ruby === 0) {
-  $("div#ruby").removeClass("highlightrow");
-} else {
+  removehighlight("ruby");
+} else if (ruby === 1){
+  removehighlight("ruby");
   $("div#ruby").addClass("highlightrow");
+} else if (ruby === 2){
+  removehighlight("ruby");
+  $("div#ruby").addClass("highlightrow1");
+} else {
+  removehighlight("ruby");
+  $("div#ruby").addClass("highlightrow2");
 };
 
 if (csharp === 0) {
-  $("div#csharp").removeClass("highlightrow");
-} else {
+  removehighlight("csharp");
+} else if (csharp === 1){
+  removehighlight("csharp");
   $("div#csharp").addClass("highlightrow");
+} else if (csharp === 2){
+  removehighlight("csharp");
+  $("div#csharp").addClass("highlightrow1");
+} else {
+  removehighlight("csharp");
+  $("div#csharp").addClass("highlightrow2");
 };
 
 if (java === 0) {
-  $("div#java").removeClass("highlightrow");
-} else {
+  removehighlight("java");
+} else if (java === 1){
+  removehighlight("java");
   $("div#java").addClass("highlightrow");
+} else if (java === 2){
+  removehighlight("java");
+  $("div#java").addClass("highlightrow1");
+} else {
+  removehighlight("java");
+  $("div#java").addClass("highlightrow2");
 };
 
 if (go === 0) {
-  $("div#go").removeClass("highlightrow");
-} else {
+  removehighlight("go");
+} else if (go === 1){
+  removehighlight("go");
   $("div#go").addClass("highlightrow");
+} else if (go === 2){
+  removehighlight("go");
+  $("div#go").addClass("highlightrow1");
+} else {
+  removehighlight("go");
+  $("div#go").addClass("highlightrow2");
 };
 
 if (python === 0) {
-  $("div#python").removeClass("highlightrow");
-} else {
+  removehighlight("python");
+} else if (python === 1){
+  removehighlight("python");
   $("div#python").addClass("highlightrow");
+} else if (python === 2){
+  removehighlight("python");
+  $("div#python").addClass("highlightrow1");
+} else {
+  removehighlight("python");
+  $("div#python").addClass("highlightrow2");
 };
 
 if (rust === 0) {
-  $("div#rust").removeClass("highlightrow");
-} else {
+  removehighlight("rust");
+} else if (rust === 1){
+  removehighlight("rust");
   $("div#rust").addClass("highlightrow");
+} else if (rust === 2){
+  removehighlight("rust");
+  $("div#rust").addClass("highlightrow1");
+} else {
+  removehighlight("rust");
+  $("div#rust").addClass("highlightrow2");
 };
 
 if (swift === 0) {
-  $("div#swift").removeClass("highlightrow");
-} else {
+  removehighlight("swift");
+} else if (swift === 1){
+  removehighlight("swift");
   $("div#swift").addClass("highlightrow");
+} else if (swift === 2){
+  removehighlight("swift");
+  $("div#swift").addClass("highlightrow1");
+} else {
+  removehighlight("swift");
+  $("div#swift").addClass("highlightrow2");
 };
 
 
