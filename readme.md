@@ -25,7 +25,7 @@ _For any questions about the website, code or content, please contact me at tlbh
 
 ## Technologies Used
 
-_Written in html, css and bootstrap_
+_Written in html, css, bootstrap, javascript and JQuery_
 
 ### License
 
